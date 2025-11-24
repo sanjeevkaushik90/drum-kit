@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <title>Drum Kit</title>
+</head>
+<body>
+
+    <div class="flex items-center h-screen justify-between p-7 bg-gray-900 ">
+
+        <div class="bg-gray-800 border border-green-500 p-10  flex  flex-col justify-center items-center cursor-pointer">
+            <p class="text-green-400 font-semibold text-5xl  [text-shadow:_0_0_10px_#3b82f6,_0_0_20px_#3b82f6] ">A</p><br>
+            <button id="kick" class="text-white font-semibold text-lg cursor-pointer">Kick Drum</button>
+        </div>
+
+        <div class="bg-gray-800  border border-green-500 p-10 flex  flex-col justify-center items-center cursor-pointer">
+            <p class="text-green-400 font-semibold text-5xl  [text-shadow:_0_0_10px_#3b82f6,_0_0_20px_#3b82f6]">S</p><br>
+            <button id="snare" class="text-white font-semibold text-lg cursor-pointer">Snare Drum</button>
+        </div>
+
+        <div class="bg-gray-800  border border-green-500 p-10 flex  flex-col justify-center items-center cursor-pointer">
+            <p class="text-green-400 font-semibold text-5xl  [text-shadow:_0_0_10px_#3b82f6,_0_0_20px_#3b82f6]">D</p><br>
+            <button id="closeHat" class="text-white font-semibold text-lg cursor-pointer">Closed Hi-Hat</button>
+        </div>
+
+        <div class="bg-gray-800  border border-green-500 p-10 flex  flex-col justify-center items-center cursor-pointer">
+            <p class="text-green-400 font-semibold text-5xl  [text-shadow:_0_0_10px_#3b82f6,_0_0_20px_#3b82f6]">F</p><br>
+            <button id="openHat" class="text-white font-semibold text-lg cursor-pointer">Open Hi-Hat</button>
+        </div>
+
+        <div class="bg-gray-800 border border-green-500 p-10 flex  flex-col justify-center items-center cursor-pointer">
+            <p class="text-green-400 font-semibold text-5xl  [text-shadow:_0_0_10px_#3b82f6,_0_0_20px_#3b82f6]">G</p><br>
+            <button id="highTom" class="text-white font-semibold text-lg cursor-pointer">High Tom</button>
+        </div>
+
+        <div class="bg-gray-800  border border-green-500 p-10 flex  flex-col justify-center items-center cursor-pointer">
+            <p class="text-green-400 font-semibold text-5xl  [text-shadow:_0_0_10px_#3b82f6,_0_0_20px_#3b82f6]">H</p><br>
+            <button id="lowTom" class="text-white font-semibold text-lg cursor-pointer">Low Tom</button>
+        </div>
+
+        <div class="bg-gray-800  border border-green-500 p-10 flex  flex-col justify-center items-center cursor-pointer">
+            <p class="text-green-400 font-semibold text-5xl  [text-shadow:_0_0_10px_#3b82f6,_0_0_20px_#3b82f6]">J</p><br>
+            <button id="crash" class="text-white font-semibold text-lg cursor-pointer">Crash Cymbal</button>
+        </div>
+
+    </div>
+    
+    <div class="absolute bottom-10 left-1/2 top-[550px]">
+        <button id="autoLoop" class="text-white bg-gray-800 border border-green-500 px-6 py-3 rounded-lg hover:bg-gray-700 transition-colors font-semibold cursor-pointer">Auto Play</button>
+    </div>
+    
+<script src="./sricpt.js"></script>
+</body>
+</html>
